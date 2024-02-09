@@ -19,6 +19,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
   },
   button: {
-    backgroundColor: 'blue',
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'gray',
   },
 });
